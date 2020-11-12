@@ -5,11 +5,9 @@ Home: https://pypi.org/project/django-axes/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-ipware-feedstock/blob/master/LICENSE.txt)
 
 Summary: django-ipware, application to retrieve client's IP address.
-
-
 
 Current build status
 ====================
