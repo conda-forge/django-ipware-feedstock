@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - python >=3.6
-    - django
+    - python >=3.8
+    - python-ipware >=2.0.0
 
 about:
-  home: https://pypi.org/project/django-axes/
+  home: https://pypi.org/project/django-ipware/
   summary: django-ipware, application to retrieve client's IP address.
   license: MIT
   license_file: LICENSE
