@@ -20,6 +20,7 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
+    - django
     - python-ipware >=2.0.0
 
 about:
