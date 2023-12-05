@@ -3,7 +3,7 @@ About django-ipware-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-ipware-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/django-axes/
+Home: https://pypi.org/project/django-ipware/
 
 Package license: MIT
 
