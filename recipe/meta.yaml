@@ -1,5 +1,5 @@
 {% set name = "django-ipware" %}
-{% set version = "6.0.1" %}
+{% set version = "6.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0233341eddcc19de44f463dd3e53c87ef9dcc519fc74a99911cebe9b58197549
+  sha256: 27bd87e44199e139c2bf8e6e1017b5fd56213e3feb6a531525e4a460c250ee9e
 
 build:
   number: 0

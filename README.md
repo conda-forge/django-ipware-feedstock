@@ -7,7 +7,7 @@ Home: https://pypi.org/project/django-ipware/
 
 Package license: MIT
 
-Summary: django-ipware, application to retrieve client's IP address.
+Summary: This is django-ipware, application to retrieve client's IP address.
 
 Current build status
 ====================
