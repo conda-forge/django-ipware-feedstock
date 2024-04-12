@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/un33k/django-ipware
-  summary: A Django application to retrieve user's IP address
+  summary: A Django application to retrieve users IP address
   license: MIT
   license_file: LICENSE
 
