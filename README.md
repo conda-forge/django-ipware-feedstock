@@ -3,11 +3,11 @@ About django-ipware-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-ipware-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/django-ipware/
+Home: https://github.com/un33k/django-ipware
 
 Package license: MIT
 
-Summary: This is django-ipware, application to retrieve client's IP address.
+Summary: A Django application to retrieve users IP address
 
 Current build status
 ====================
