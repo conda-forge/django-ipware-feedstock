@@ -17,11 +17,18 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
     - django
     - python-ipware >=2.0.0
+
+test:
+  requires:
+    - python {{ python_min }}
+  imports:
+    - ipware
 
 about:
   home: https://pypi.org/project/django-ipware/
