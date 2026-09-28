@@ -1,28 +1,28 @@
 {% set name = "django-ipware" %}
-{% set version = "7.0.1" %}
+{% set version = "8.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d9ec43d2bf7cdf216fed8d494a084deb5761a54860a53b2e74346a4f384cff47
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 377cc7926ea377d8f544511b019cd32b28060e1c9caa3d0c43c3e5e923560f33
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-build-isolation
 
 requirements:
   host:
     - pip
-    - setuptools
+    - hatchling
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - django
-    - python-ipware >=2.0.0
+    - django >=5.2
+    - python-ipware >=4.1.0,<5
 
 test:
   requires:
