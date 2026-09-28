@@ -17,13 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - setuptools >=64
-    - wheel
+    - hatchling
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
     - django >=5.2
-    - python-ipware >=4.1.0
+    - python-ipware >=4.1.0,<5
 
 test:
   requires:
